@@ -1,0 +1,15 @@
+name: contactscan
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.8
+  - streamlit>=1.28.0
+  - numpy>=1.21.0
+  - pillow>=10.0.0
+  - matplotlib>=3.7.0
+  - pandas>=2.0.0
+  - pip
+  - pip:
+    - opencv-python>=4.8.0
+
